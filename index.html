@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math & Telugu Tutoring - Fun and Effective Learning for Kids</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Poppins:wght@300;500;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .kid-font {
+            font-family: 'Comic Neue', cursive;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        
+        .math-icon {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .telugu-icon {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+        
+        .floating {
+            animation: floating 3s ease-in-out infinite;
+        }
+        
+        @keyframes floating {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0px); }
+        }
+        
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body class="gradient-bg min-h-screen">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div>
+                        <a href="#" class="flex items-center py-4 px-2">
+                            <i class="fas fa-chalkboard-teacher text-3xl text-purple-600 mr-2"></i>
+                            <span class="font-semibold text-gray-900 text-lg">Learn With Me</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-3">
+                    <a href="#about" class="py-4 px-2 text-gray-700 hover:text-purple-600 transition duration-300">About</a>
+                    <a href="#services" class="py-4 px-2 text-gray-700 hover:text-purple-600 transition duration-300">Services</a>
+                    <a href="#testimonials" class="py-4 px-2 text-gray-700 hover:text-purple-600 transition duration-300">Testimonials</a>
+                    <a href="#contact" class="py-4 px-2 text-gray-700 hover:text-purple-600 transition duration-300">Contact</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="outline-none mobile-menu-button">
+                        <i class="fas fa-bars text-gray-700 text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="hidden mobile-menu">
+            <ul class="">
+                <li><a href="#about" class="block text-sm px-2 py-4 hover:bg-purple-100 transition duration-300">About</a></li>
+                <li><a href="#services" class="block text-sm px-2 py-4 hover:bg-purple-100 transition duration-300">Services</a></li>
+                <li><a href="#testimonials" class="block text-sm px-2 py-4 hover:bg-purple-100 transition duration-300">Testimonials</a></li>
+                <li><a href="#contact" class="block text-sm px-2 py-4 hover:bg-purple-100 transition duration-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-20 px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+                        <span class="text-purple-600 kid-font">Fun Learning</span> <br>
+                        <span>For Young Minds</span>
+                    </h1>
+                    <p class="text-lg text-gray-600 mb-8">
+                        Making Math exciting and Telugu engaging for K-6 students through interactive lessons tailored to each child's learning style.
+                    </p>
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href="#contact" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300 text-center pulse">
+                            Book a Free Trial
+                        </a>
+                        <a href="https://wa.me/[YOUR_PHONE_NUMBER]" target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300 text-center flex items-center justify-center">
+                            <i class="fab fa-whatsapp mr-2"></i> Chat Now
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="relative w-full max-w-md">
+                        <img src="/Users/vivekkumar/Desktop/tutor/10603624_42778.svg" alt="Kids learning" class="rounded-lg shadow-xl floating">
+                        <div class="absolute -bottom-6 -left-6 bg-yellow-200 p-4 rounded-full shadow-lg">
+                            <i class="fas fa-star text-yellow-500 text-3xl"></i>
+                        </div>
+                        <div class="absolute -top-6 -right-6 bg-blue-200 p-4 rounded-full shadow-lg">
+                            <i class="fas fa-award text-blue-500 text-3xl"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">About Your Tutor</h2>
+                <div class="w-20 h-1 bg-purple-600 mx-auto"></div>
+            </div>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/3 mb-10 md:mb-0 flex justify-center">
+                    <div class="relative">
+                        <img src="/Users/vivekkumar/Desktop/tutor/4473223_2362933-01.svg" alt="Tutor" class="w-64 h-64 object-cover rounded-full border-4 border-purple-200 shadow-lg">
+                        <div class="absolute -bottom-2 -right-2 bg-purple-100 p-3 rounded-full">
+                            <i class="fas fa-graduation-cap text-purple-600 text-2xl"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-2/3 md:pl-12">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Hello! I'm <span class="text-purple-600">[Your Name]</span></h3>
+                    <p class="text-gray-600 mb-4">
+                        With over [X] years of experience teaching Math and Telugu to elementary students, I've developed a teaching approach that combines academic rigor with fun, interactive learning.
+                    </p>
+                    <p class="text-gray-600 mb-6">
+                        My qualifications include [list your relevant degrees/certifications]. I'm passionate about helping children build strong foundations in both subjects while nurturing their confidence and love for learning.
+                    </p>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                        <div class="bg-purple-50 p-4 rounded-lg text-center">
+                            <i class="fas fa-child text-purple-600 text-2xl mb-2"></i>
+                            <p class="font-semibold">Child-Centered</p>
+                        </div>
+                        <div class="bg-purple-50 p-4 rounded-lg text-center">
+                            <i class="fas fa-gamepad text-purple-600 text-2xl mb-2"></i>
+                            <p class="font-semibold">Interactive</p>
+                        </div>
+                        <div class="bg-purple-50 p-4 rounded-lg text-center">
+                            <i class="fas fa-bullseye text-purple-600 text-2xl mb-2"></i>
+                            <p class="font-semibold">Goal-Oriented</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">My Teaching Services</h2>
+                <div class="w-20 h-1 bg-purple-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-10">
+                <!-- Math Service -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="math-icon h-48 flex items-center justify-center">
+                        <i class="fas fa-square-root-alt text-white text-8xl"></i>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4 kid-font">Math Magic for K-6</h3>
+                        <p class="text-gray-600 mb-6">
+                            Transform math anxiety into excitement! My engaging lessons cover:
+                        </p>
+                        <ul class="space-y-2 mb-6">
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-purple-600 mr-2"></i>
+                                <span>Number sense & operations</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-purple-600 mr-2"></i>
+                                <span>Fractions & decimals</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-purple-600 mr-2"></i>
+                                <span>Geometry & measurement</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-purple-600 mr-2"></i>
+                                <span>Word problems & critical thinking</span>
+                            </li>
+                        </ul>
+                        <div class="bg-purple-50 p-4 rounded-lg">
+                            <p class="text-purple-600 font-semibold">
+                                <i class="fas fa-lightbulb mr-2"></i> Special focus on building problem-solving skills!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Telugu Service -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="telugu-icon h-48 flex items-center justify-center">
+                        <i class="fas fa-comments text-white text-8xl"></i>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4 kid-font">Telugu Treasure</h3>
+                        <p class="text-gray-600 mb-6">
+                            Discover the beauty of Telugu language and culture through:
+                        </p>
+                        <ul class="space-y-2 mb-6">
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-purple-600 mr-2"></i>
+                                <span>Alphabet & basic vocabulary</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-purple-600 mr-2"></i>
+                                <span>Reading & writing skills</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-purple-600 mr-2"></i>
+                                <span>Conversational practice</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-purple-600 mr-2"></i>
+                                <span>Cultural stories & traditions</span>
+                            </li>
+                        </ul>
+                        <div class="bg-purple-50 p-4 rounded-lg">
+                            <p class="text-purple-600 font-semibold">
+                                <i class="fas fa-music mr-2"></i> Learn through songs, stories, and games!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Teaching Approach -->
+            <div class="mt-16 bg-white rounded-xl shadow-lg p-8">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">My Teaching Approach</h3>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-user-edit text-purple-600 text-2xl"></i>
+                        </div>
+                        <h4 class="font-bold text-lg mb-2">Personalized Lessons</h4>
+                        <p class="text-gray-600">Tailored to each child's learning style and pace</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-laugh-beam text-purple-600 text-2xl"></i>
+                        </div>
+                        <h4 class="font-bold text-lg mb-2">Engaging Methods</h4>
+                        <p class="text-gray-600">Games, visuals, and real-world applications</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-chart-line text-purple-600 text-2xl"></i>
+                        </div>
+                        <h4 class="font-bold text-lg mb-2">Progress Tracking</h4>
+                        <p class="text-gray-600">Regular assessments and parent updates</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-16 bg-purple-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">What Parents & Students Say</h2>
+                <div class="w-20 h-1 bg-purple-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                            <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Parent" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Priya M.</h4>
+                            <p class="text-gray-500 text-sm">Parent of 3rd grader</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">
+                        "My daughter went from hating math to looking forward to her sessions. The creative teaching methods make all the difference!"
+                    </p>
+                    <div class="mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Parent" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Rahul K.</h4>
+                            <p class="text-gray-500 text-sm">Parent of 5th grader</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">
+                        "The Telugu lessons are so engaging with stories and songs. My son is now comfortable speaking with his grandparents!"
+                    </p>
+                    <div class="mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Parent" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Ananya S.</h4>
+                            <p class="text-gray-500 text-sm">Parent of 2nd grader</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">
+                        "The progress reports are so detailed. I can see exactly where my child is improving and where they need more help."
+                    </p>
+                    <div class="mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 4 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                            <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Student" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Arjun, Age 9</h4>
+                            <p class="text-gray-500 text-sm">4th grade student</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">
+                        "Math is fun now! I love the games we play. Fractions used to be hard but now they're easy!"
+                    </p>
+                    <div class="mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Get In Touch</h2>
+                <div class="w-20 h-1 bg-purple-600 mx-auto"></div>
+            </div>
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Ready to Start Learning?</h3>
+                    <p class="text-gray-600 mb-8">
+                        Fill out the form or contact me directly to schedule a free trial session. I'll assess your child's needs and create a personalized learning plan.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-phone-alt text-purple-600"></i>
+                            </div>
+                            <div>
+                                <p class="text-gray-500">Phone/WhatsApp</p>
+                                <p class="font-semibold">[Your Phone Number]</p>
+                                <a href="https://wa.me/1234567890" target="_blank" class="text-sm text-green-600 hover:text-green-700 flex items-center mt-1">
+                                    <i class="fab fa-whatsapp mr-1"></i> Message me on WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-envelope text-purple-600"></i>
+                            </div>
+                            <div>
+                                <p class="text-gray-500">Email</p>
+                                <p class="font-semibold">[Your Email]</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-map-marker-alt text-purple-600"></i>
+                            </div>
+                            <div>
+                                <p class="text-gray-500">Location</p>
+                                <p class="font-semibold">[Your City/Area]</p>
+                                <p class="text-sm text-gray-500">Online sessions also available</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 md:pl-12">
+                    <form action="https://formsubmit.co/atchutannavivek@gmail.com" method="POST" class="space-y-6">
+                        <input type="hidden" name="_subject" value="New Tutoring Inquiry">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
+                        <!-- Honeypot spam protection -->
+                        <input type="text" name="_honey" style="display:none">
+                        
+                        <div>
+                            <label for="name" class="block text-gray-700 font-medium mb-2">Parent's Name *</label>
+                            <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Email *</label>
+                            <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600">
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-gray-700 font-medium mb-2">Phone *</label>
+                            <input type="tel" id="phone" name="phone" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600">
+                        </div>
+                        <div>
+                            <label for="student" class="block text-gray-700 font-medium mb-2">Student's Grade *</label>
+                            <select id="student" name="grade" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600">
+                                <option value="">Select grade</option>
+                                <option value="k">Kindergarten</option>
+                                <option value="1">1st Grade</option>
+                                <option value="2">2nd Grade</option>
+                                <option value="3">3rd Grade</option>
+                                <option value="4">4th Grade</option>
+                                <option value="5">5th Grade</option>
+                                <option value="6">6th Grade</option>
+                            </select>
+                        </div>
+                      
+                        <div>
+                            <label for="subject" class="block text-gray-700 font-medium mb-2">Subject Interest *</label>
+                            <select id="subject" name="subject"  required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600">
+                                <option value="">Select subject</option>
+                                <option value="math">Math</option>
+                                <option value="telugu">Telugu</option>
+                                <option value="both">Both</option>
+                            </select>
+                        </div>
+                          <div>
+                            <label for="student" class="block text-gray-700 font-medium mb-2">Session Type *</label>
+                            <select id="student" name="grade" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600">
+                                <option value="">Select Type</option>
+                                <option value="k">Online</option>
+                                <option value="1">In-Person</option>
+                                <option value="2">Hybrid</option>
+                            </select>
+                        </div>
+                        <div>
+                            <button type="submit" class="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300">
+                                Request Free Trial
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-purple-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Frequently Asked Questions</h2>
+                <div class="w-20 h-1 bg-purple-600 mx-auto"></div>
+            </div>
+            <div class="max-w-3xl mx-auto">
+                <div class="space-y-4">
+                    <!-- FAQ Item 1 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <button class="faq-question w-full flex justify-between items-center p-6 focus:outline-none">
+                            <h3 class="text-lg font-semibold text-left">What ages/grade levels do you teach?</h3>
+                            <i class="fas fa-chevron-down text-purple-600 transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-answer px-6 pb-6 hidden">
+                            <p class="text-gray-600">
+                                I specialize in teaching Math and Telugu to students from Kindergarten through 6th grade. My lessons are tailored to each child's developmental stage and learning needs.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ Item 2 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <button class="faq-question w-full flex justify-between items-center p-6 focus:outline-none">
+                            <h3 class="text-lg font-semibold text-left">How are your lessons structured?</h3>
+                            <i class="fas fa-chevron-down text-purple-600 transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-answer px-6 pb-6 hidden">
+                            <p class="text-gray-600 mb-2">
+                                Lessons typically include:
+                            </p>
+                            <ul class="list-disc pl-5 space-y-1">
+                                <li>Quick review of previous concepts</li>
+                                <li>Introduction of new material with engaging activities</li>
+                                <li>Guided practice with immediate feedback</li>
+                                <li>Games or creative applications</li>
+                                <li>Summary and preview of next steps</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ Item 3 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <button class="faq-question w-full flex justify-between items-center p-6 focus:outline-none">
+                            <h3 class="text-lg font-semibold text-left">Do you offer online or in-person sessions?</h3>
+                            <i class="fas fa-chevron-down text-purple-600 transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-answer px-6 pb-6 hidden">
+                            <p class="text-gray-600">
+                                Both options are available! I offer in-person tutoring in [Your Location] and online sessions via Zoom or Google Meet. Online sessions are just as interactive with digital whiteboards, screen sharing, and engaging activities.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ Item 4 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <button class="faq-question w-full flex justify-between items-center p-6 focus:outline-none">
+                            <h3 class="text-lg font-semibold text-left">How often should my child have tutoring sessions?</h3>
+                            <i class="fas fa-chevron-down text-purple-600 transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-answer px-6 pb-6 hidden">
+                            <p class="text-gray-600">
+                                Most students benefit from 2-3 sessions per week, but this depends on their needs and goals. After our initial assessment, I'll recommend a schedule that will provide the right balance of instruction and practice time.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ Item 5 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <button class="faq-question w-full flex justify-between items-center p-6 focus:outline-none">
+                            <h3 class="text-lg font-semibold text-left">What materials will we need?</h3>
+                            <i class="fas fa-chevron-down text-purple-600 transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-answer px-6 pb-6 hidden">
+                            <p class="text-gray-600">
+                                For online sessions, you'll just need a computer/tablet with internet access. I provide all digital materials. For in-person sessions, I'll bring necessary materials, though having basic school supplies (pencils, notebook) is helpful. There are no additional material fees.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Learn With Me</h3>
+                    <p class="text-gray-400">
+                        Making learning fun and effective for elementary students through personalized Math and Telugu instruction.
+                    </p>
+                    <div class="flex space-x-4 mt-6">
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition duration-300">About</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition duration-300">Services</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition duration-300">Testimonials</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition duration-300">Contact</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Info</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            <span>[Your Address]</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-2"></i>
+                            <span>[Your Phone]</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <span>[Your Email]</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 Learn With Me Tutoring. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Buttons -->
+    <div class="fixed bottom-6 right-6 flex flex-col space-y-4 z-50">
+        <a href="https://wa.me/1234567890" target="_blank" class="bg-green-500 hover:bg-green-600 text-white w-14 h-14 rounded-full shadow-lg flex items-center justify-center transition-all duration-300">
+            <i class="fab fa-whatsapp text-2xl"></i>
+        </a>
+        <button id="backToTop" class="bg-purple-600 hover:bg-purple-700 text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center transition-opacity duration-300 opacity-0 invisible">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.querySelector('.mobile-menu-button');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // FAQ accordion
+        const faqQuestions = document.querySelectorAll('.faq-question');
+        
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const icon = question.querySelector('i');
+                
+                // Toggle answer visibility
+                answer.classList.toggle('hidden');
+                
+                // Rotate icon
+                icon.classList.toggle('rotate-180');
+                
+                // Close other open answers
+                faqQuestions.forEach(q => {
+                    if (q !== question) {
+                        q.nextElementSibling.classList.add('hidden');
+                        q.querySelector('i').classList.remove('rotate-180');
+                    }
+                });
+            });
+        });
+
+        // Back to top button
+        const backToTopButton = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.remove('opacity-0', 'invisible');
+                backToTopButton.classList.add('opacity-100', 'visible');
+            } else {
+                backToTopButton.classList.remove('opacity-100', 'visible');
+                backToTopButton.classList.add('opacity-0', 'invisible');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Form submission feedback
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has('success')) {
+            alert('Thank you for your interest! I will contact you shortly to schedule your free trial session.');
+        }
+    </script>
+</body>
+</html>
